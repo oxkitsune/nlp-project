@@ -10,7 +10,7 @@ python -m venv nlp-env
 2. Activate it
 
 
-On windows this would be done by running
+On Windows this would be done by running
 ```
 nlp-env/Scripts/activate
 ```
