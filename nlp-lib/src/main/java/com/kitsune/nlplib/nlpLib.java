@@ -95,7 +95,7 @@ public class nlpLib {
         try (PrintStream stream = new PrintStream(grammarFile)) {
 
             stream.println("# " + (PCFG ? "PCFG" : "CFG") + " created by nlp-lib");
-            stream.println("# Source: https://github.com/oxkitsune/nlp-project/");
+            stream.println("# Source: https://github.com/OxKitsune/nlp-project/tree/master/nlp-lib");
             stream.println("");
             stream.println("# Built on CoreNLP by stanford");
             stream.println("# https://stanfordnlp.github.io/CoreNLP/");
