@@ -1,0 +1,814 @@
+# PCFG created by nlp-lib
+# Source: https://github.com/OxKitsune/nlp-project/tree/master/nlp-lib
+
+# Built on CoreNLP by stanford
+# https://stanfordnlp.github.io/CoreNLP/
+
+
+S -> VP 
+VP -> VB S 
+S -> NP VP 
+NP -> PRP 
+VP -> VB VP 
+VP -> VB NP ADVP 
+NP -> PRP 
+ADVP -> RB 
+S -> VP 
+VP -> VBP RB VP 
+VP -> VB ADVP S 
+ADVP -> RB 
+S -> VP 
+VP -> VB RB VP 
+VP -> VB 
+S -> SBAR NP VP 
+SBAR -> WHNP 
+WHNP -> WP 
+NP -> PRP 
+VP -> VBP SBAR 
+SBAR -> WHNP S 
+WHNP -> WP 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP 
+S -> ADVP VP 
+ADVP -> RB 
+VP -> VB S 
+S -> NP VP 
+NP -> PRP 
+VP -> VB S 
+S -> NP ADJP 
+NP -> PRP 
+ADJP -> JJ 
+S -> VP 
+VP -> VB PP ADVP 
+PP -> IN NP 
+NP -> PRPS NN 
+ADVP -> RB 
+S -> PRN NP VP 
+PRN -> S 
+S -> VP 
+VP -> VBP RB 
+NP -> PRP 
+VP -> VBP NP 
+NP -> DT NN 
+S -> ADVP VP 
+ADVP -> JJR 
+VP -> VB NP ADVP 
+NP -> PRPS NN 
+ADVP -> RB 
+S -> VP 
+VP -> VP CC VP 
+VP -> VB 
+VP -> VB NP PRT SBAR 
+NP -> PRP 
+PRT -> RP 
+SBAR -> WHNP S 
+WHNP -> WP 
+S -> VP 
+VP -> VBP S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBD S 
+S -> VP 
+VP -> TO VP 
+VP -> VB 
+S -> PRN NP VP 
+PRN -> S 
+S -> VP 
+VP -> VP CC VP 
+VP -> VB 
+VP -> VB NP PP 
+NP -> PRPS NN 
+PP -> IN NP 
+NP -> DT NN 
+NP -> PRP 
+VP -> VBP 
+S -> SBAR NP VP 
+SBAR -> IN S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP NP 
+NP -> PRP 
+NP -> DT 
+VP -> VBD NP PP 
+NP -> PRP 
+PP -> IN NP 
+NP -> DT NN 
+S -> PRN NP VP 
+PRN -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBZ NP 
+NP -> NP SBAR 
+NP -> DT JJ NN 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBD ADVP 
+ADVP -> RB 
+NP -> PRP 
+VP -> VBD S 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP NP-TMP 
+NP -> PRP 
+NP-TMP -> JJ NN 
+S -> VP 
+VP -> VB NP PRT S 
+NP -> PRP 
+PRT -> RP 
+S -> VP 
+VP -> VB PP 
+PP -> IN NP 
+NP -> NN 
+S -> VP 
+VP -> VB PP S 
+PP -> IN ADJP 
+ADJP -> JJ 
+S -> VP 
+VP -> VB S 
+S -> NP ADJP 
+NP -> PRP 
+ADJP -> JJ 
+S -> VP 
+VP -> VBD S 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP 
+NP -> JJ NN 
+S -> VP 
+VP -> VB S 
+S -> NP VP 
+NP -> PRP 
+VP -> VB VP 
+VP -> VB S 
+S -> NP ADJP 
+NP -> PRP 
+ADJP -> JJ 
+S -> VP 
+VP -> VB NP PP 
+NP -> DT NN 
+PP -> IN NP 
+NP -> NN 
+S -> VP 
+VP -> VBD S 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP 
+NP -> JJ NN 
+S -> VP 
+VP -> VB NP NP 
+NP -> PRP 
+NP -> NP SBAR 
+NP -> DT 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBD ADVP 
+ADVP -> RB 
+S -> VP 
+VP -> VB SBAR 
+SBAR -> WHNP S 
+WHNP -> WP 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP ADVP 
+ADVP -> RB 
+S -> VP 
+VP -> VP CC VP 
+VP -> VB 
+VP -> VB NP PRT SBAR 
+NP -> PRP 
+PRT -> RP 
+SBAR -> WHNP S 
+WHNP -> WP 
+S -> VP 
+VP -> VBP S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBD S 
+S -> VP 
+VP -> TO VP 
+VP -> VB 
+S -> PRN NP VP 
+PRN -> S 
+S -> VP 
+VP -> VP CC VP 
+VP -> VB 
+VP -> VB NP PP 
+NP -> PRPS NN 
+PP -> IN NP 
+NP -> DT NN 
+NP -> PRP 
+VP -> VBP 
+S -> SBAR NP VP 
+SBAR -> IN S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP NP 
+NP -> PRP 
+NP -> DT 
+VP -> VBD NP PP 
+NP -> PRP 
+PP -> IN NP 
+NP -> DT NN 
+S -> PRN NP VP 
+PRN -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBZ NP 
+NP -> NP SBAR 
+NP -> DT JJ NN 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBD ADVP 
+ADVP -> RB 
+NP -> PRP 
+VP -> VBD S 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP NP-TMP 
+NP -> PRP 
+NP-TMP -> JJ NN 
+S -> VP 
+VP -> VB ADVP 
+ADVP -> RB 
+S -> PRN NP VP 
+PRN -> S 
+S -> NP VP 
+NP -> DT NN 
+VP -> VBZ VP 
+VP -> VBG ADVP 
+ADVP -> RB 
+NP -> PRP 
+VP -> VBZ ADVP ADVP 
+ADVP -> RBR 
+ADVP -> RB 
+S -> VP 
+VP -> VB ADVP 
+ADVP -> RB 
+S -> VP 
+VP -> VBG S 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP SBAR 
+NP -> DT NN JJ NN 
+SBAR -> IN S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP NP 
+NP -> DT NN 
+S -> NP VP 
+NP -> PRP 
+VP -> MD VP 
+VP -> VB 
+S -> ADVP PRN NP VP 
+ADVP -> RB 
+PRN -> S 
+S -> NP VP 
+NP -> PRPS NNS 
+VP -> VBP PP 
+PP -> IN NP 
+NP -> DT NN 
+NP -> PRP 
+VP -> MD ADVP VP 
+ADVP -> RB 
+VP -> VB PRT 
+PRT -> RP 
+S -> NP VP 
+NP -> PDT DT JJ NNS 
+VP -> VBP S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBG PP 
+PP -> IN NP 
+NP -> DT NN 
+S -> NP VP 
+NP -> NN 
+VP -> MD ADVP VP 
+ADVP -> RB 
+VP -> VB NP 
+NP -> DT JJ 
+S -> VP 
+VP -> VP CC VP 
+VP -> VB 
+VP -> VB NP PRT SBAR 
+NP -> PRP 
+PRT -> RP 
+SBAR -> WHNP S 
+WHNP -> WP 
+S -> VP 
+VP -> VBP S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBD S 
+S -> VP 
+VP -> TO VP 
+VP -> VB 
+S -> PRN NP VP 
+PRN -> S 
+S -> VP 
+VP -> VP CC VP 
+VP -> VB 
+VP -> VB NP PP 
+NP -> PRPS NN 
+PP -> IN NP 
+NP -> DT NN 
+NP -> PRP 
+VP -> VBP 
+S -> SBAR NP VP 
+SBAR -> IN S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP NP 
+NP -> PRP 
+NP -> DT 
+VP -> VBD NP PP 
+NP -> PRP 
+PP -> IN NP 
+NP -> DT NN 
+S -> NP VP 
+NP -> PRP 
+VP -> VBZ NP 
+NP -> NP SBAR 
+NP -> DT JJ NN 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBD ADVP NP 
+ADVP -> RB 
+NP -> PRP 
+S -> SBAR NP VP 
+SBAR -> IN S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP NP 
+NP -> PRP 
+NP -> DT 
+VP -> VBD NP PP 
+NP -> PRP 
+PP -> IN NP 
+NP -> DT NN 
+S -> PRN NP VP 
+PRN -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBZ NP 
+NP -> NP SBAR 
+NP -> DT JJ NN 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBD ADVP 
+ADVP -> RB 
+NP -> PRP 
+VP -> VBD S 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP NP-TMP 
+NP -> PRP 
+NP-TMP -> JJ NN 
+S -> VP 
+VP -> VBP S 
+S -> NP ADVP VP 
+NP -> PRP 
+ADVP -> RB 
+VP -> VBD NP 
+NP -> NP SBAR 
+NP -> DT NN 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP VP 
+VP -> VBN PP 
+PP -> IN NP 
+NP -> NN 
+S -> CC NP VP 
+NP -> EX 
+VP -> VBZ RB NP 
+NP -> NP SBAR PP 
+NP -> NN 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> MD 
+PP -> IN S 
+S -> VP 
+VP -> VBN CC VBN 
+S -> CC ADVP NP VP 
+ADVP -> RB 
+NP -> PRP 
+VP -> VBP NP PP 
+NP -> PRP 
+PP -> IN NP 
+NP -> PRPS JJ 
+S -> CC NP VP 
+NP -> PRP 
+VP -> MD RB VP 
+VP -> VB SBAR 
+SBAR -> IN S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP ADJP 
+ADJP -> JJ 
+S -> CC NP VP 
+NP -> PRP 
+VP -> VBD SBAR 
+SBAR -> S 
+S -> NP VP 
+NP -> NP CC NP 
+NP -> PRPS NNS 
+NP -> DT 
+VP -> VBZ SBAR 
+SBAR -> WHNP S 
+WHNP -> WP 
+S -> NP VP 
+NP -> PRP 
+VP -> VBD 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP NP 
+NP -> DT 
+S -> PRN NP VP 
+PRN -> S 
+S -> VP 
+VP -> VB NP NP-TMP 
+NP -> PRP 
+NP-TMP -> NN 
+NP -> PRP 
+VP -> VBP SBAR 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP VP 
+VP -> VBG S 
+S -> VP 
+VP -> TO VP 
+VP -> VB ADVP 
+ADVP -> RB 
+S -> VP 
+VP -> VBP RB VP 
+VP -> VB VP 
+VP -> VBN S 
+S -> VP 
+VP -> TO VP 
+VP -> VB S 
+S -> VP 
+VP -> VB NP PP 
+NP -> PRPS NN 
+PP -> IN NP 
+NP -> PRP 
+S -> S PRN NP ADVP VP 
+S -> VP 
+VP -> MD RB 
+PRN -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP NP 
+NP -> DT 
+NP -> PRP 
+ADVP -> RB 
+VP -> VBP S 
+S -> VP 
+VP -> TO VP 
+VP -> VB 
+S -> VP 
+VP -> MD RB VP 
+VP -> VB NP 
+NP -> DT 
+S -> PRN NP VP 
+PRN -> S 
+S -> VP 
+VP -> VB NP PRT 
+NP -> PRP 
+PRT -> RP 
+NP -> PRP 
+VP -> VBP SBAR 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP VP 
+VP -> VBG ADVP 
+ADVP -> RB RB 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP RB VP 
+VP -> VB PP 
+PP -> IN NP 
+NP -> NP SBAR 
+NP -> DT 
+SBAR -> WHNP S 
+WHNP -> WP 
+S -> NP VP 
+NP -> PRP 
+VP -> VBN ADVP 
+ADVP -> RB 
+S -> NP NP ADVP VP 
+NP -> DT 
+NP -> PRP 
+ADVP -> RB 
+VP -> VBP SBAR 
+SBAR -> S 
+S -> VP 
+VP -> VBZ S 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP 
+NP -> PRPS 
+S -> VP 
+VP -> VB S 
+S -> NP VP 
+NP -> PRP 
+VP -> VB NP S 
+NP -> DT JJ NN 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP 
+NP -> DT JJ NNS 
+S -> ADVP SBAR NP VP 
+ADVP -> RB 
+SBAR -> WHADVP S 
+WHADVP -> WRB 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP NP PP 
+NP -> PRP 
+PP -> IN NP 
+NP -> PRP 
+NP -> PRP 
+VP -> VBZ RB NP SBAR 
+NP -> NN 
+SBAR -> WHNP S 
+WHNP -> WDT 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP VP 
+VP -> VBN 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP RB VP 
+VP -> VB NP 
+NP -> NP PP 
+NP -> WP NN 
+PP -> IN NP 
+NP -> NP SBAR 
+NP -> NN 
+SBAR -> WHNP S 
+WHNP -> WDT 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP 
+S -> CC NP VP 
+NP -> PRP 
+VP -> VBP SBAR 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBD S 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP ADVP 
+NP -> PRP 
+ADVP -> RB 
+S -> INTJ NP VP 
+INTJ -> UH 
+NP -> PRP 
+VP -> VBP SBAR 
+SBAR -> S 
+S -> VP 
+VP -> VBD NP SBAR 
+NP -> NP PP 
+NP -> DT NN 
+PP -> IN NP 
+NP -> NN 
+SBAR -> WHNP S 
+WHNP -> WDT 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP 
+S -> CC NP VP 
+NP -> PRP 
+VP -> VBD 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP NP 
+NP -> DT 
+S -> VP 
+VP -> VB NP NP 
+NP -> PRP 
+NP -> NP SBAR 
+NP -> NN 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP SBAR 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP VP 
+VP -> VBG S 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP 
+NP -> DT 
+S -> VP 
+VP -> VBP RB VP 
+VP -> VB VP 
+VP -> VBN S 
+S -> VP 
+VP -> TO VP 
+VP -> VB S 
+S -> VP 
+VP -> VB NP PP 
+NP -> PRPS NN 
+PP -> IN NP 
+NP -> PRP 
+S -> S PRN NP ADVP VP 
+S -> VP 
+VP -> MD RB 
+PRN -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP NP 
+NP -> DT 
+NP -> PRP 
+ADVP -> RB 
+VP -> VBP S 
+S -> VP 
+VP -> TO VP 
+VP -> VB 
+S -> VP 
+VP -> MD RB VP 
+VP -> VB NP 
+NP -> DT 
+S -> PRN NP VP 
+PRN -> S 
+S -> VP 
+VP -> VB NP PRT 
+NP -> PRP 
+PRT -> RP 
+NP -> PRP 
+VP -> VBP SBAR 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP VP 
+VP -> VBG ADVP 
+ADVP -> RB RB 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP RB VP 
+VP -> VB PP 
+PP -> IN NP 
+NP -> NP SBAR 
+NP -> DT 
+SBAR -> WHNP S 
+WHNP -> WP 
+S -> NP VP 
+NP -> PRP 
+VP -> VBN ADVP 
+ADVP -> RB 
+S -> NP NP ADVP VP 
+NP -> DT 
+NP -> PRP 
+ADVP -> RB 
+VP -> VBP SBAR 
+SBAR -> S 
+S -> VP 
+VP -> VBZ S 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP 
+NP -> PRPS 
+S -> NP VP 
+NP -> PRP 
+VP -> MD VP 
+VP -> VB ADVP 
+ADVP -> RB 
+S -> NP NP VP 
+NP -> NN 
+NP -> PRP 
+VP -> VBP 
+S -> VP 
+VP -> VBG PP 
+PP -> IN NP 
+NP -> DT 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP NP 
+NP -> DT 
+S -> VP 
+VP -> VB NP NP 
+NP -> PRP 
+NP -> NP SBAR 
+NP -> NN 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP SBAR 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP VP 
+VP -> VBG S 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP 
+NP -> DT 
+S -> VP 
+VP -> VBP RB VP 
+VP -> VB VP 
+VP -> VBN S 
+S -> VP 
+VP -> TO VP 
+VP -> VB S 
+S -> VP 
+VP -> VB NP PP 
+NP -> PRPS NN 
+PP -> IN NP 
+NP -> PRP 
+S -> S PRN NP ADVP VP 
+S -> VP 
+VP -> MD RB 
+PRN -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP NP 
+NP -> DT 
+NP -> PRP 
+ADVP -> RB 
+VP -> VBP S 
+S -> VP 
+VP -> TO VP 
+VP -> VB 
+S -> VP 
+VP -> MD RB VP 
+VP -> VB NP 
+NP -> DT 
+S -> PRN NP VP 
+PRN -> S 
+S -> VP 
+VP -> VB NP PRT 
+NP -> PRP 
+PRT -> RP 
+NP -> PRP 
+VP -> VBP SBAR 
+SBAR -> S 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP VP 
+VP -> VBG ADVP 
+ADVP -> RB RB 
+S -> NP VP 
+NP -> PRP 
+VP -> VBP RB VP 
+VP -> VB PP 
+PP -> IN NP 
+NP -> NP SBAR 
+NP -> DT 
+SBAR -> WHNP S 
+WHNP -> WP 
+S -> NP VP 
+NP -> PRP 
+VP -> VBN ADVP 
+ADVP -> RB 
+S -> NP NP ADVP VP 
+NP -> DT 
+NP -> PRP 
+ADVP -> RB 
+VP -> VBP SBAR 
+SBAR -> S 
+S -> VP 
+VP -> VBZ S 
+S -> VP 
+VP -> TO VP 
+VP -> VB NP 
+NP -> PRPS 
+
+JJ -> 'real' | 'only' | 'big' | 'broke' | 'clear' | 'big' | 'right' | 'big' | 'only' | 'big' | 'new' | 'pretty' | 'same' | 'only' | 'only' | 'big' | 'own' | 'alone' | 'little' | 'right'
+NN -> 'heart' | 'rush' | 'shot' | 'luck' | 'life' | 'line' | 'life' | 'time' | 'gear' | 'time' | 'world' | 'night' | 'time' | 'luck' | 'life' | 'line' | 'life' | 'time' | 'light' | 'brand' | 'sound' | 'town' | 'ground' | 'sunshine' | 'life' | 'luck' | 'life' | 'line' | 'life' | 'line' | 'life' | 'time' | 'feeling' | 'someone' | 'anything' | 'time' | 'trust' | 'moment' | 'something' | 'kind' | 'guy' | 'kind' | 'love' | 'time' | 'trust' | 'girl' | 'time' | 'trust'
+WRB -> 'when'
+PRP -> 'it' | 'it' | 'you' | 'you' | 'it' | 'it' | 'you' | 'it' | 'you' | 'you' | 'you' | 'it' | 'it' | 'it' | 'ya' | 'ya' | 'it' | 'it' | 'it' | 'it' | 'it' | 'it' | 'you' | 'you' | 'it' | 'you' | 'you' | 'you' | 'it' | 'it' | 'it' | 'ya' | 'ya' | 'it' | 'it' | 'we' | 'we' | 'we' | 'you' | 'it' | 'you' | 'you' | 'you' | 'it' | 'it' | 'it' | 'ya' | 'ya' | 'you' | 'it' | 'it' | 'it' | 'ya' | 'ya' | 'it' | 'you' | 'you' | 'they' | 'i' | 'you' | 'i' | 'you' | 'i' | 'they' | 'i' | 'me' | 'you' | 'i' | 'me' | 'you' | 'i' | 'me' | 'you' | 'i' | 'i' | 'you' | 'i' | 'me' | 'i' | 'it' | 'you' | 'it' | 'you' | 'i' | 'you' | 'i' | 'i' | 'myself' | 'i' | 'you' | 'i' | 'i' | 'me' | 'you' | 'i' | 'me' | 'you' | 'i' | 'me' | 'you' | 'i' | 'i' | 'you' | 'i' | 'i' | 'i' | 'i' | 'me' | 'you' | 'i' | 'me' | 'you' | 'i' | 'me' | 'you' | 'i' | 'i' | 'you' | 'i'
+DT -> 'the' | 'the' | 'all' | 'the' | 'the' | 'the' | 'all' | 'the' | 'all' | 'the' | 'the' | 'every' | 'a' | 'this' | 'the' | 'the' | 'the' | 'the' | 'the' | 'all' | 'the' | 'the' | 'all' | 'the' | 'the' | 'the' | 'this' | 'that' | 'all' | 'that' | 'all' | 'all' | 'a' | 'the' | 'the' | 'that' | 'that' | 'all' | 'that' | 'all' | 'all' | 'a' | 'that' | 'that' | 'all' | 'that' | 'all' | 'all'
+NNS -> 'feet' | 'people' | 'girls' | 'words'
+JJR -> 'better'
+UH -> 'see'
+MD -> 'can' | 'will' | 'will' | 'could' | 'can' | 'can' | 'can' | 'can' | 'can' | 'will' | 'can' | 'can'
+WP -> 'what' | 'what' | 'what' | 'what' | 'what' | 'what' | 'what' | 'what' | 'what' | 'what' | 'what'
+VBD -> 'got' | 'lay' | 'got' | 'got' | 'got' | 'got' | 'got' | 'got' | 'lay' | 'got' | 'got' | 'got' | 'lay' | 'got' | 'lay' | 'got' | 'got' | 'had' | 'overheard' | 'said' | 'got' | 'got' | 'heard'
+VBG -> 'shining' | 'going' | 'walking' | 'going' | 'coming' | 'going' | 'coming' | 'looking' | 'going' | 'coming'
+PRPS -> 'your' | 'your' | 'your' | 'your' | 'our' | 'your' | 'your' | 'your' | 'your' | 'your' | 'your' | 'your' | 'your' | 'your'
+CC -> 'and' | 'and' | 'and' | 'and' | 'and' | 'and' | 'and' | 'or' | 'and' | 'and' | 'but' | 'and' | 'but' | 'and'
+PDT -> 'all'
+RBR -> 'brighter'
+VBN -> 'drawn' | 'said' | 'done' | 'scared' | 'done' | 'heard' | 'scared' | 'done' | 'scared' | 'done'
+VBP -> 'do' | 'want' | 'feel' | 'do' | 'feel' | 'have' | 'choose' | 'want' | 'start' | 'have' | 'choose' | 'want' | 'own' | 'are' | 'see' | 'have' | 'choose' | 'want' | 'want' | 'have' | 'are' | 'see' | 'are' | 'see' | 'know' | 'am' | 'do' | 'see' | 'want' | 'know' | 'am' | 'do' | 'want' | 'kick' | 'have' | 'do' | 'prefer' | 'know' | 'think' | 'deserve' | 'see' | 'know' | 'am' | 'do' | 'see' | 'want' | 'know' | 'am' | 'do' | 'want' | 'swear' | 'see' | 'know' | 'am' | 'do' | 'see' | 'want' | 'know' | 'am' | 'do' | 'want'
+IN -> 'to' | 'with' | 'if' | 'on' | 'in' | 'for' | 'over' | 'with' | 'if' | 'on' | 'like' | 'off' | 'in' | 'with' | 'if' | 'on' | 'if' | 'on' | 'to' | 'of' | 'on' | 'that' | 'in' | 'at' | 'to' | 'of' | 'of' | 'in' | 'at' | 'for' | 'in' | 'at'
+WDT -> 'that' | 'that' | 'that'
+VB -> 'make' | 'count' | 'play' | 'look' | 'do' | 'hesitate' | 'quit' | 'make' | 'listen' | 'take' | 'go' | 'shake' | 'lose' | 'go' | 'make' | 'live' | 'step' | 'get' | 'go' | 'make' | 'go' | 'make' | 'work' | 'get' | 'change' | 'dream' | 'give' | 'finish' | 'go' | 'shake' | 'lose' | 'go' | 'make' | 'live' | 'look' | 'look' | 'make' | 'fly' | 'look' | 'be' | 'go' | 'shake' | 'lose' | 'go' | 'make' | 'live' | 'believe' | 'gim' | 'be' | 'be' | 'come' | 'put' | 'be' | 'fight' | 'knock' | 'care' | 'be' | 'let' | 'take' | 'find' | 'know' | 'put' | 'give' | 'be' | 'be' | 'come' | 'put' | 'be' | 'fight' | 'knock' | 'care' | 'be' | 'be' | 'give' | 'be' | 'be' | 'come' | 'put' | 'be' | 'fight' | 'knock' | 'care' | 'be'
+VBZ -> 'is' | 'is' | 'is' | 'is' | 'is' | 'is' | 'is' | 'is' | 'is' | 'is' | 'is' | 'is'
+RB -> 'straight' | 'not' | 'back' | 'not' | 'never' | 'now' | 'not' | 'now' | 'so' | 'now' | 'now' | 'so' | 'around' | 'now' | 'somehow' | 'around' | 'now' | 'never' | 'never' | 'so' | 'so' | 'ever' | 'not' | 'everyday' | 'not' | 'there' | 'not' | 'not' | 'really' | 'not' | 'right' | 'back' | 'not' | 'before' | 'really' | 'so' | 'not' | 'not' | 'forwards' | 'not' | 'not' | 'really' | 'not' | 'right' | 'back' | 'not' | 'before' | 'really' | 'here' | 'not' | 'not' | 'really' | 'not' | 'right' | 'back' | 'not' | 'before' | 'really'
+EX -> 'there'
+TO -> 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to' | 'to'
+RP -> 'up' | 'up' | 'up' | 'down' | 'up' | 'down' | 'down' | 'down'

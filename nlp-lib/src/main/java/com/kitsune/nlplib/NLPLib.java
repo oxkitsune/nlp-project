@@ -18,13 +18,15 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.stream.Collectors;
 
-public class nlpLib {
+public class NLPLib {
 
     private static boolean PCFG;
     private static String CORPUS_PATH = "corpus.txt";
     private static String GRAMMAR_PATH = "grammar.txt";
 
     public static void main(String[] args) throws IOException {
+
+        List<Integer> usedArgs = new ArrayList<>();
 
         if (args.length != 0) {
             for (int i = 0; i < args.length; i++) {
@@ -38,6 +40,7 @@ public class nlpLib {
                     }
 
                     CORPUS_PATH = args[i + 1];
+                    usedArgs.add(i + 1);
                     File file = new File(CORPUS_PATH);
                     if (!file.exists()) {
                         System.out.println("Invalid corpus specified: File at \"" + CORPUS_PATH + "\" does not exist!");
@@ -50,12 +53,15 @@ public class nlpLib {
                     }
 
                     GRAMMAR_PATH = args[i + 1];
+                    usedArgs.add(i + 1);
                     File file = new File(GRAMMAR_PATH);
                     if (file.exists()) {
                         System.out.println("Invalid output file specified: File at \"" + GRAMMAR_PATH + "\" already exist!");
                         System.exit(2);
                     }
                 } else {
+                    if (usedArgs.contains(i)) continue;
+                    
                     System.out.println("Unknown argument: " + arg);
                     System.exit(3);
                 }

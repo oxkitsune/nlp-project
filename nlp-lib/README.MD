@@ -12,8 +12,10 @@ mvn clean package
 ## Running nlp-lib
 nlp-lib can be invoked using the following command:
 
+The stanford CoreNLP libaries require a hefty amount of ram, we recommend running it with 4G:
+
 ```shell
-java -jar nlp-lib-0.1.0.jar
+java -Xmx4G -jar nlp-lib-0.1.0.jar
 ```
 
 It can take the following optional arguments:
