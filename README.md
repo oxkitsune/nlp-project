@@ -8,6 +8,8 @@ For Python, we recommend setting up a virtual environment
 python -m venv nlp-env
 ```
 2. Activate it
+
+
 On windows this would be done by running
 ```
 nlp-env/Scripts/activate
